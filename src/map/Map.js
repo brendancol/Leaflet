@@ -18,6 +18,9 @@ L.Map = L.Evented.extend({
 		markerZoomAnimation: true
 	},
 
+
+
+
 	initialize: function (id, options) { // (HTMLElement or String, Object)
 		options = L.setOptions(this, options);
 
